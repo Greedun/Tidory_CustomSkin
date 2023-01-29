@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html x-data="{ dark: window.matchMedia('(prefers-color-scheme: dark)').matches }" :class="{ dark: dark }" lang="ko">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>[##_page_title_##]</title>
+    <link rel="stylesheet" :href="'//fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap'">
+    <link rel="stylesheet" :href="'//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'">
+    <script defer src="./images/app.8d19212e8a90b3bd401a.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./images/script.EVOCN6GzP7VBDz5G5Obg.js"></script>
+  </head>
+
+  <body class="bg-white dark:bg-zinc-900" id="[##_body_id_##]">
+    <s_t3>
+      <div class="h-screen flex justify-center text-center items-center">
+        <header>
+          <h1 class="text-5xl m-0 text-zinc-800 dark:text-zinc-50">TIDORY</h1>
+          <nav class="mt-9">
+            <ul class="list-none">
+              <li class="mx-4 inline-block"><a class="text-base duration-200 pointer-events-auto decoration-0 text-gray-500 hover:text-black dark:text-zinc-300 dark:hover:text-zinc-50" href="https://tidory.com/docs/get-started">시작하기</a></li>
+              <li class="mx-4 inline-block"><a class="text-base duration-200 pointer-events-auto decoration-0 text-gray-500 hover:text-black dark:text-zinc-300 dark:hover:text-zinc-50" href="https://tidory.com/docs/directory">디렉토리</a></li>
+              <li class="mx-4 inline-block"><a class="text-base duration-200 pointer-events-auto decoration-0 text-gray-500 hover:text-black dark:text-zinc-300 dark:hover:text-zinc-50" href="https://tidory.com/docs/template">템플릿</a></li>
+              <li class="mx-4 inline-block"><a class="text-base duration-200 pointer-events-auto decoration-0 text-gray-500 hover:text-black dark:text-zinc-300 dark:hover:text-zinc-50" href="https://tidory.com/docs/framework">프레임워크</a></li>
+              <li class="mx-4 inline-block"><a class="text-base duration-200 pointer-events-auto decoration-0 text-gray-500 hover:text-black dark:text-zinc-300 dark:hover:text-zinc-50" href="https://tidory.com/docs/deployment">빌드 및 배포</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="fixed bottom-4 right-4"><button class="w-10 h-10 flex justify-center items-center w-10 h-10 outline-0 rounded-full bg-zinc-100 text-zinc-400 dark:bg-zinc-800 dark:text-zinc-50" type="button" @click="dark = ! dark"><span class="text-[0]">테마</span><i class="fa-solid fa-moon"></i></button></div>
+      </div>
+    </s_t3>
+  </body>
+
+</html>
